@@ -1,0 +1,81 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 25px;
+
+    box-shadow: 0 0 10px black;
+}
+
+main .container span {
+    color: rgb(7, 160, 231);
+} 
+
+.logo {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 900;
+    color: rgb(7, 160, 231);
+}
+
+nav {
+    word-spacing: 30px;
+}
+
+nav a {
+    font-family: monospace;
+    transition: ease .3s;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(7, 160, 231);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 225px;
+}
+
+main .container {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 25px;
+    margin-top: 20px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    background-color: white;
+
+    transition: ease .3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
